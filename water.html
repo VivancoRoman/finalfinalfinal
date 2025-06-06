@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water</title>
+    <script src="water.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body class="fondo">
+  <nav class="nav">
+    <ul class="list">
+      <img src="images/mokovilogo.png" class="logo">
+      
+      <li class="botonnav"><a href="index.html" class="botonnavlink">Inicio</a></li>
+      <li class="botonnav"><a href="calories.html" class="botonnavlink">Calorías</a></li>
+      <li class="botonnav"><a href="water.html" class="botonnavlink">Agua</a></li>
+      <li class="botonnav submenu">
+        <a href="rangos.html" class="botonnavlink">Rangos</a>
+        <ul class="menu-desplegable">
+          <li><a href="rangopressdebanca.html" class="botonnavlink2">Press banca</a></li>
+          <li><a href="rangosentadilla.html" class="botonnavlink2">Sentadillas</a></li>
+        </ul>
+      </li>
+      <li class="botonnav submenu">
+        <a href="cronometer.html" class="botonnavlink">Cronometro</a>
+        <ul class="menu-desplegable">
+          <li><a href="cronometer30.html" class="botonnavlink2">Cronometro 30</a></li>
+          <li><a href="cronometer60.html" class="botonnavlink2">Cronometro 60</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <div class="wrapper">
+    <div class="main-content">
+    <br>
+    <h1>Calculadora de consumo agua</h1> <br>
+    <br>
+    <br>
+
+    <div class="calculadora">
+
+        <p class="ingrese">INGRESA TU</p>
+
+
+        <p>Peso <br>
+            <input type="number" placeholder="Ej. 75kg" id="peso" class="input">
+        </p>
+        <br>
+        <button class="botoncalories" onclick="calcular()">Calcular</button>
+        <p>La cantidad de litros de agua que debería tomar son:  <br>
+            <input class="result" type="result" name="" readonly id="agua">
+        </p>
+    </div>
+    <br>
+
+    <a href="index.html"><button class="botoncalories">Volver a la Pagina principal</button></a>
+    <br>
+    </div>
+    <footer class="footerindex">
+        <p><i><u>CONTACTOS:</u></i></p>
+        <ul>
+            <li><p>2502614@ucc.edu.ar</p></li>
+            <li><p>2503307@ucc.edu.ar</p></li>
+            <li><p>mokoviyasociados@gmail.com</p></li>
+        </ul>
+        <a href="https://www.instagram.com/mokovi.fitness/"><button class="logoig"></button></a>
+        <p class="copyright"> &copy; 2025 Gimnasio Mokoví. Todos los derechos reservados.</p>
+    </footer>
+  </div>
+</body>
+
+</html>

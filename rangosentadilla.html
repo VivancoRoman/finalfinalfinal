@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rangopressdebanca</title>
+    <script src="rangosentadilla.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="fondo">
+    <nav class="nav">
+        <ul class="list">
+          <img src="images/mokovilogo.png" class="logo">
+          
+          <li class="botonnav"><a href="index.html" class="botonnavlink">Inicio</a></li>
+          <li class="botonnav"><a href="calories.html" class="botonnavlink">Calorías</a></li>
+          <li class="botonnav"><a href="water.html" class="botonnavlink">Agua</a></li>
+          <li class="botonnav submenu">
+            <a href="rangos.html" class="botonnavlink">Rangos</a>
+            <ul class="menu-desplegable">
+              <li><a href="rangopressdebanca.html" class="botonnavlink2">Press banca</a></li>
+              <li><a href="rangosentadilla.html" class="botonnavlink2">Sentadillas</a></li>
+            </ul>
+          </li>
+      
+          <li class="botonnav"><a href="cronometer30.html" class="botonnavlink">Cronómetro</a></li>
+        </ul>
+      </nav>
+
+<div class="titulopress">
+    <h1>Calcular Rango Sentadilla </h1>
+    </div>
+    <br>
+    <div class="calculadorapress">
+        <p>Ingrese su Peso <br><input type="number" class="input" placeholder="Ej. 80kg" id="peso"></p>
+        <p>Ingrese su PR <br><input type="number" class="input" placeholder="Ej. 75kg" id="pr"></p>
+        <button class="botonpress" onclick="calcular()" >Calcular</button>
+        <p>Rango de Fuerza:
+<br>
+<img id="imagenRango" style="display:none; width:200px; margin-top:10px;" alt="Imagen del rango" class="calculadorapress">
+           <br> <br><input type="text" class="result"  readonly placeholder="Ej. platino" id="rango"></p>
+    </div>
+    <a href="rangos.html"><button class="botonpress">Volver</button></a>
+    <footer class="footerindex">
+        <p><i><u>CONTACTOS:</u></i></p>
+        <ul>
+            <li><p>2502614@ucc.edu.ar</p></li>
+            <li><p>2503307@ucc.edu.ar</p></li>
+            <li><p>mokoviyasociados@gmail.com</p></li>
+        </ul>
+        <a href="https://www.instagram.com/mokovi.fitness/"><button class="logoig"></button></a>
+        <p class="copyright"> &copy; 2025 Gimnasio Mokoví. Todos los derechos reservados.</p>
+    </footer>
+</body>
